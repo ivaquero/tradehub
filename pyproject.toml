@@ -4,10 +4,10 @@
     description = "Official Website"
     readme = "README.md"
     requires-python = ">=3.11"
-dependencies = [
-    "django>=5.2.5",
-    "django-crispy-forms>=2.4",
-    "django-extensions>=4.1",
+    dependencies = [
+        "django>=5.2.5",
+        "django-crispy-forms>=2.4",
+        "django-extensions>=4.1",
 ]
 
 [tool.ruff]
