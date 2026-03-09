@@ -13,4 +13,8 @@ uv init --python 3.12
 
 ```console
 uv add Django
+source .venv/bin/activate
+
+django-admin startproject
+django-admin startapp shop
 ```
