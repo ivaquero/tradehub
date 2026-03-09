@@ -15,6 +15,6 @@ uv init --python 3.12
 uv add Django
 source .venv/bin/activate
 
-django-admin startproject
-django-admin startapp shop
+uv run django-admin startproject tradehub .
+uv run python manage.py startapp shop
 ```
