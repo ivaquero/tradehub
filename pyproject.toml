@@ -24,8 +24,6 @@ docstring-code-format = true
 docstring-code-line-length = 60
 # Use `\n` line endings for all files
 line-ending = "lf"
-# Prefer single quotes over double quotes
-quote-style = "double"
 skip-magic-trailing-comma = true
 
 [tool.ruff.lint]
@@ -73,6 +71,7 @@ ignore = [
   "RUF001",  # string contains ambiguous character (such as greek letters)
   "RUF002",  # docstring contains ambiguous character (such as greek letters)
   "RUF003",
+  "RUF012"  # mutable default value for class attribute
 ]
 unfixable = []
 
