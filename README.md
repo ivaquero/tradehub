@@ -17,6 +17,7 @@ source .venv/bin/activate
 
 uv run django-admin startproject tradehub .
 uv run python manage.py startapp shop
+uv run python manage.py startapp cart
 uv run python manage.py createsuperuser
 uv run python manage.py runserver
 ```
