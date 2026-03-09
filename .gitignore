@@ -32,4 +32,6 @@ profile_default/
 ipython_config.py
 
 .venv
+.python-version
+uv.lock
 migrations
